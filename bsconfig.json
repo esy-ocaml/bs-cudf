@@ -1,0 +1,35 @@
+{
+  "name": "bs-cudf",
+  "bs-dependencies": [
+    "bs-extlib"
+  ],
+  "sources": [
+    {
+      "dir": ".",
+      "files": [
+        "cudf.ml",
+        "cudf.mli",
+        "cudf_822_lexer.mll",
+        "cudf_822_parser.ml",
+        "cudf_822_parser.mli",
+        "cudf_c.ml",
+        "cudf_checker.ml",
+        "cudf_checker.mli",
+        "cudf_conf.ml",
+        "cudf_conf.mli",
+        "cudf_parser.ml",
+        "cudf_parser.mli",
+        "cudf_printer.ml",
+        "cudf_printer.mli",
+        "cudf_type_lexer.mll",
+        "cudf_type_parser.ml",
+        "cudf_type_parser.mli",
+        "cudf_types.ml",
+        "cudf_types.mli",
+        "cudf_types_pp.ml",
+        "cudf_types_pp.mli"
+      ]
+    }
+  ],
+  "ocamlyacc": "ocamlyacc"
+}

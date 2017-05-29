@@ -1,0 +1,14 @@
+{
+  "name": "bs-cudf",
+  "version": "1.0.0",
+  "description": "libCUDF - CUDF (Common Upgradeability Description Format) library =================================================================",
+  "devDependencies": {
+    "bs-platform": "^1.7.4"
+  },
+  "dependencies": {
+    "bs-extlib": "esy-ocaml/bs-extlib"
+  },
+  "scripts": {
+    "postinstall": "make prepare"
+  }
+}

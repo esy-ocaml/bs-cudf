@@ -139,3 +139,7 @@ world: all opt c-lib c-lib-opt doc
 .PHONY: all opt world clean top-level headers test tags install uninstall
 .PHONY: dep rpm c-lib c-lib-opt dist doc
 .NOTPARALLEL:
+
+prepare:
+	ocamlyacc -b cudf_822_parser cudf_822_parser.mly
+	ocamlyacc -b cudf_type_parser cudf_type_parser.mly
