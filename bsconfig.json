@@ -29,6 +29,8 @@
         "cudf.mli",
         "cudf_822_parser.ml",
         "cudf_822_parser.mli",
+        "cudf_822_lexer.ml",
+        "cudf_type_lexer.ml",
         "cudf_c.ml",
         "cudf_checker.ml",
         "cudf_checker.mli",
