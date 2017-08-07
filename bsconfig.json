@@ -6,10 +6,27 @@
   "sources": [
     {
       "dir": ".",
+      "generators": [
+        {
+          "name": "ocamllex",
+          "edge": [
+            "cudf_822_lexer.ml",
+            ":",
+            "cudf_822_lexer.mll"
+          ]
+        },
+        {
+          "name": "ocamllex",
+          "edge": [
+            "cudf_type_lexer.ml",
+            ":",
+            "cudf_type_lexer.mll"
+          ]
+        }
+      ],
       "files": [
         "cudf.ml",
         "cudf.mli",
-        "cudf_822_lexer.mll",
         "cudf_822_parser.ml",
         "cudf_822_parser.mli",
         "cudf_c.ml",
@@ -21,7 +38,6 @@
         "cudf_parser.mli",
         "cudf_printer.ml",
         "cudf_printer.mli",
-        "cudf_type_lexer.mll",
         "cudf_type_parser.ml",
         "cudf_type_parser.mli",
         "cudf_types.ml",
@@ -31,5 +47,10 @@
       ]
     }
   ],
-  "ocamlyacc": "ocamlyacc"
+  "generators": [
+    {
+      "name": "ocamllex",
+      "command": "ocamllex $in"
+    }
+  ]
 }
